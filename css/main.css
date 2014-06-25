@@ -111,6 +111,56 @@ div {
 /*  =========================================================================
     text styling
     ========================================================================= */
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.fn-link {
+    font-style: italic;
+}
+
+.fn-figure {
+    font-size: 12px;
+}
+
+h1 {
+    font-family:'Avenir Next', 'Futura', sans-serif;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 40.5px;
+}
+
+.manifesto {
+    font-family:'Avenir Next', 'Futura', sans-serif;
+    font-size: 21px;
+    line-height: 27px;    
+}
+
+ul,
+ol,
+dl {
+    font-family:'Avenir Next', 'Futura', sans-serif;
+    font-style: italic;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-family:'Avenir Next', 'Futura', sans-serif;
+    font-style: italic;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+
 .fn-figure {
     vertical-align: super;
 }
@@ -140,6 +190,10 @@ div {
 #external-links {
     float: none;
     display: block;
+}
+
+.studies {
+    padding-bottom: 100px;
 }
 
 
