@@ -22,9 +22,10 @@
 		uncomment to use -->
         
         <link rel="stylesheet" href="css/skeleton.css">
-
+        <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="jquery.flexslider.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -49,27 +50,26 @@
                     
                     <div class="eight columns text">
                         <h2 class="manifesto">
-                            what is real is not the external form, but the essence of things, it is impossible for anyone to express anything essentially real by imitating its exterior surface.
+                            The evolution of pedagogy is, for the most part, viewed in relation to factors that are immediately applicable. This limits the possibility of a defined pedagogy to sustain itself, given the changes in an era of rapid globalization/growth. Looking into tangentially related fields is now essential and seems to be the logical step forward given the larger areas of overlap.
                             <br>
-                            <span id="constantin">constantin brancusi</span>
+                            <br>
+                            The purpose of this publication is to examine the relationship between a more “antiquated” view of pedagogical systems [1] and newer entrepreneurial endeavors, specifically in the IT sector [2].
+                            <br>
+                            <br>
+                            The hope is that this will create new connections between the two fields, which have had to be sensitive to social, political, and economic changes, potentially providing a link to methodologies that have yet to be considered. It must be made clear that production of the study was done over the course of one week. This includes research, writing, and design. This is simply an introduction full of fallacies that will need to be addressed. I would like to think of this as a question, taking the form of a set of parameters, in which to think. Hopefully, through the physical production of these writings, which provide a broad insight into both fields, a new, more specific question will emerge. Something more tangible. Something that won’t get lost in vast space of open theoretical discussion, but instead can be applied in the physical reality it should occupy.
                         </h2>
                     </div> <!-- end text -->
 
                     <div class="six columns images">
                         
-                        <img class="bauhaus" src="img/s-h/bauhaus.gif" alt="bauhaus" width="400">
+                        <img class="ov" src="img/correllation/overview_1-01.jpg" alt="installation overview 1" width="400">
                         
-                        <img class="bauhaus-inspo" src="img/s-h/bauhaus-inspo.jpg" alt="it won't be considered" width="400">
+                        <img class="ov" src="img/correllation/overview_2-01.jpg" alt="installation overview 2" width="400">
 
-                        <h3 class="about-img">built 1979, walter gropius</h3>
-
-                        <img class="sc" src="img/s-h/san-chapelle.gif" alt="bauhaus" width="400">
+                        <img class="ov" src="img/correllation/overview-pamphlet-01.jpg" alt="pamphlet" width="400">
                         
-                        <img class="sc-inspo" src="img/s-h/sc-inspo.jpg" alt="text is arbitrary" width="400">
 
-                        <h3 class="about-img">built 1248, commissioned by King Louis IX</h3>
-
-                    </div> <!-- end footer -->
+                    </div> <!-- images -->
 
                     <div class="five columns back-to-home" id="back-to-home">
                         
@@ -94,7 +94,20 @@
         
         <!-- Load jQuery plugins here -->
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js"></script>        
+        <script src="js/vendor/jquery.flexslider-min.js"></script>
+        <script>
+            $(function(){
+                $('.flexslider').flexslider({
+                    animation: 'slide' ,
+                    controlNav: false ,
+                    slideshowSpeed: 3000 ,
+                    animationSpeed: 600 ,
+                    pauseOnAction: true,
+                    pauseOnHover: true
+                });
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

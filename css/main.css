@@ -117,10 +117,6 @@ textarea {
     font-size: 14px;
 }
 
-.quote {
-    padding-bottom: 47.250px; 
-}
-
 a:link,
 a:visited {
     text-decoration: none;
@@ -263,6 +259,11 @@ p {
     clear: both;
     padding-bottom: 27px;
 }
+
+.ov {
+    margin-bottom: 27px;
+}
+
 
 /*  =========================================================================
     end div styling
