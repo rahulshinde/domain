@@ -47,7 +47,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -97,11 +97,11 @@ textarea {
     !!! START AUTHOR'S (THATS ME) CUSTOM STYLE !!!
    ========================================================================== */
 /* help me see you,*/
-div {
+/*div {
    outline: 1px;
    outline-style: dotted;
    background: rgba(255, 191, 202, 0.38);
-}
+}*/
 /* it's ok*/
 
 
@@ -111,6 +111,15 @@ div {
 /*  =========================================================================
     text styling
     ========================================================================= */
+
+#constantin {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.quote {
+    padding-bottom: 47.250px; 
+}
 
 a:link,
 a:visited {
@@ -130,13 +139,17 @@ h1 {
     font-family:'Avenir Next', 'Futura', sans-serif;
     font-size: 42px;
     letter-spacing: 3.5px;
-    line-height: 40.5px;
+    line-height: 47.25px;
+}
+
+h3 {
+    font-family:'Avenir Next', 'Futura', sans-serif;
 }
 
 .manifesto {
     font-family:'Avenir Next', 'Futura', sans-serif;
     font-size: 21px;
-    line-height: 27px;    
+    line-height: 31.5px;    
 }
 
 ul,
@@ -161,8 +174,58 @@ p {
     margin-right: 10px;
 }
 
-.fn-figure {
-    vertical-align: super;
+.fn-figure-1 {
+    vertical-align: top;
+    margin-left: -2px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.fn-figure-2 {
+    vertical-align: top;
+    margin-left: -2px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.fn-figure-3 {
+    vertical-align: top;
+    margin-left: -2px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.fn-figure-4 {
+    vertical-align: top;
+    margin-left: -0.5px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.fn-figure-5 {
+    vertical-align: top;
+    margin-left: 3px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.fn-figure-6 {
+    vertical-align: top;
+    margin-left: 2.5px;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+
+.about-img {
+    font-size: 14px;
+    padding-bottom: 159.47px;
+    margin-top: -47.25px;
 }
 
 /*  =========================================================================
@@ -182,7 +245,7 @@ p {
     margin-right: auto;
     margin-left: auto;
     height: auto;
-    margin-top: 36px;
+    margin top: 36px;
 }
 
 #footer,
@@ -196,6 +259,10 @@ p {
     padding-bottom: 100px;
 }
 
+#back-to-home {
+    clear: both;
+    padding-bottom: 27px;
+}
 
 /*  =========================================================================
     end div styling
