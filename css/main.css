@@ -97,11 +97,11 @@ textarea {
     !!! START AUTHOR'S (THATS ME) CUSTOM STYLE !!!
    ========================================================================== */
 /* help me see you,*/
-/*div {
+div {
    outline: 1px;
    outline-style: dotted;
    background: rgba(255, 191, 202, 0.38);
-}*/
+}
 /* it's ok*/
 
 
@@ -111,6 +111,25 @@ textarea {
 /*  =========================================================================
     text styling
     ========================================================================= */
+
+
+.up-arrow {
+    vertical-align: top;
+    position: relative;
+    top: 1px;
+}
+
+.right-arrow {
+    vertical-align: top;
+    position: relative;
+    top: 1px;
+}
+
+.down-arrow {
+    vertical-align: top;
+    position: relative;
+    top: 1px;
+}
 
 #constantin {
     font-style: italic;
@@ -224,6 +243,15 @@ p {
     margin-top: -47.25px;
 }
 
+.refrence-number {
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+.citation-after {
+    margin-left: 12px;
+}
+
 /*  =========================================================================
     end text styling
     ========================================================================= */
@@ -235,6 +263,10 @@ p {
 /*  =========================================================================
     div styling
     ========================================================================= */
+.go-home {
+    margin-top: 100px;
+}
+
 .container .container-wrap {
     float: none;
     display: block;
@@ -264,9 +296,36 @@ p {
     margin-bottom: 27px;
 }
 
+.refrences {
+    clear: both;
+    margin-left: 10px;
+}
+
+.flex-img {
+    clear: both;
+    margin-left: 10px;
+    width: 400px;
+}
+
 
 /*  =========================================================================
     end div styling
+    ========================================================================= */
+
+
+
+
+/*  =========================================================================
+    img styling
+    ========================================================================= */
+
+.ov{
+    overflow: hidden;
+    background-size: cover;
+}
+
+/*  =========================================================================
+    img styling
     ========================================================================= */
 
 
