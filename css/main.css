@@ -171,7 +171,6 @@ ul,
 ol,
 dl {
     font-family:'Avenir Next', 'Futura', sans-serif;
-    font-style: italic;
     list-style: none;
     font-size: 14px;
     line-height: 18px;
@@ -187,6 +186,14 @@ p {
     margin-bottom: 12px;
     padding-left: 40px;
     margin-right: 10px;
+}
+
+.external-links,
+.links,
+.go-home,
+.citations,
+.citation-after {
+    font-style: italic;
 }
 
 .fn-figure-1 {
