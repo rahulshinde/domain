@@ -161,6 +161,11 @@ h3 {
     font-family:'Avenir Next', 'Futura', sans-serif;
 }
 
+h4 {
+    font-family:'Avenir Next', 'Futura', sans-serif;
+    font-size: 14px;
+}
+
 .manifesto {
     font-family:'Avenir Next', 'Futura', sans-serif;
     font-size: 21px;
@@ -264,6 +269,12 @@ p {
     font-style: italic;
 }
 
+.semiotics-img {
+    margin-top: -21px;
+    padding-bottom: 21px;
+
+}
+
 /*  =========================================================================
     end text styling
     ========================================================================= */
@@ -351,6 +362,14 @@ p {
 /*  =========================================================================
     media queries
     ========================================================================= */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .flexslider {
+        margin-left: -10px;
+        width: 400px;
+    }
+}
 
 @media only screen and (max-width: 479px) {
 
