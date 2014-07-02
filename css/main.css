@@ -178,7 +178,7 @@ dl {
     font-family:'Avenir Next', 'Futura', sans-serif;
     list-style: none;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 21px;
     margin-bottom: 12px;
 }
 
@@ -328,6 +328,10 @@ p {
     clear: both;
     margin-left: 10px;
     width: 400px;
+}
+
+.bth {
+    padding-top: 100px;
 }
 
 
