@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>about</title>
+        <title>surface no. 1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,9 +19,12 @@
 		<!-- optional type and form styling
 		<link rel="stylesheet" href="css/base.css">
 		uncomment to use -->
+
         <link href='http://fonts.googleapis.com/css?family=Habibi|Open+Sans:300italic,700,300' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="css/normalize.css">        
         <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -32,39 +35,44 @@
 
         <!-- SITE CONTENT GOES IN HERE  -->
 
-        <div class="container with-background">
+        <div class="container">
 
             <div class="thirteen columns container-wrap" id="container-wrap">
 
                 <div class="header clearfix">
                     
-                    <div class="seven columns title">
-                        <h1 class="page-title">about</h1>
+                    <div class="nine columns title">
+                        <h1 class="page-title">surface no.1</h1>
                     </div> <!-- end title -->
 
                 </div> <!-- end header -->
 
                 <div class="body clearfix">
                     
-                    <div class="six columns cv-body" id="footer">
+                    <div class="eight columns text">
+                        <h2 class="manifesto">
+                            his (man's) best friend, 
+                            <br>
+                            <br>
+                            pdf found <a class="link-here" id="link-here" href="http://www.mediafire.com/view/gk884dwjgwsvxpw/his(man's)-best-friend.pdf" title="pdf" target="_blank">here.</a>
+                            <br>
+                            video found <a class="link-here" id="link-here" href="https://vimeo.com/116620055" title="video" target="_blank">here.</a>
+                        </h2>
+                    </div> <!-- end text -->
 
-                        <ul class="info">
-                            <li>RAHUL SHINDE</li>
-                            <li>20, ALBUQUERQUE <span class="right-arrow">&#8594;</span> BALTIMORE</li>
-                            <li>RSHINDE@MICA.EDU</li>
-                            
-                        </ul> <!-- end education-->
-
-                    </div> <!-- end cv-body -->
-                    
-                    <div class="five columns back-to-home adding-space" id="back-to-home">
+                    <div class="six columns images">
+                        <img class="ov" src="img/ex6/2.jpg" alt="1">
                         
-                        <ul class="go-home">
-                            <li><a href="index.html" title="http://rahulshinde.com/">&#8592; BACK TO HOME</a></li>
+                    </div> <!-- images -->
+
+                    <div class="five columns back-to-home bth" id="back-to-home">
+                        
+                        <ul class="links">
+                            <li><a class="go-home" href="index.html#ex(s)" title="go-home">&#8592; BACK TO HOME</a></li>
                             
                         </ul> <!-- end ul links to studies -->
 
-                    </div> <!-- end back to home -->
+                    </div> <!-- end footer -->
 
                 </div> <!-- end body -->
                 
@@ -80,8 +88,22 @@
         
         <!-- Load jQuery plugins here -->
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
+        <script src="js/main.js"></script>        
+        <script src="js/vendor/jquery.flexslider-min.js"></script>
+        <script>
+            $(function(){
+                $('.flexslider').flexslider({
+                    slideshow: false,
+                    animation: 'slide' ,
+                    controlNav: false ,
+                    pauseOnAction: true,
+                    pauseOnHover: true,
+                    touch: true,
+                    prevText: "",
+                    nextText: "",
+                });
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
