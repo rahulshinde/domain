@@ -115,7 +115,7 @@ textarea {
     top: 30px;
     right: 10%;
 
-    padding:90px 40px 150px 40px;
+
     background-image: url("../img/cs-back.gif");
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -125,11 +125,17 @@ textarea {
 }
 
 #coming-soon-title {
+    padding:90px 40px 150px 40px;
+    color: white;
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
     text-align: center;
+}
+
+#coming-soon-title:hover {
+    color: rgba(255, 241, 0, 1);
 }
 
 /*  =========================================================================
@@ -424,10 +430,11 @@ p {
         top: 30px;
         right: 1%;
 
-        padding:90px 20px 150px 20px;
+       
     }
 
     #coming-soon-title {
+        padding:90px 20px 150px 20px;
         font-size: 10px;
     }
    
