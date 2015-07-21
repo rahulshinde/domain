@@ -125,13 +125,17 @@ textarea {
 }
 
 #coming-soon-title {
-    padding:90px 40px 150px 40px;
-    color: white;
+    padding:220px 40px 20px 40px;
+    color: rgba(215,225,190,1);
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: bold;
     text-align: center;
+    transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -webkit-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
 }
 
 #coming-soon-title:hover {
@@ -434,7 +438,7 @@ p {
     }
 
     #coming-soon-title {
-        padding:90px 20px 150px 20px;
+        padding:220px 20px 20px 20px;
         font-size: 10px;
     }
    
