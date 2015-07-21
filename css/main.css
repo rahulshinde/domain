@@ -106,7 +106,31 @@ textarea {
 
 
 
+/*  =========================================================================
+    COMING SOON!
+    ========================================================================= */
 
+.coming-soon {
+    position: fixed;
+    top: 30px;
+    right: 10%;
+
+    padding:90px 40px 150px 40px;
+    background-image: url("../img/cs-back.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 2px solid rgba(255, 241, 0, 1);
+}
+
+#coming-soon-title {
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
 
 /*  =========================================================================
     text styling
@@ -389,11 +413,24 @@ p {
     background-size: 700px auto;
     }
 
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-    
+
+    .coming-soon {
+        position: fixed;
+        top: 30px;
+        right: 1%;
+
+        padding:90px 20px 150px 20px;
+    }
+
+    #coming-soon-title {
+        font-size: 10px;
+    }
+   
 
     /*.hidden-text {
         visibility: hidden;
@@ -423,6 +460,10 @@ p {
 }
 
 @media only screen and (max-width: 479px) {
+
+    .coming-soon {
+        display: none;
+    }
 
     img {
         width: 302px;
