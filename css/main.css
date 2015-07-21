@@ -125,7 +125,7 @@ textarea {
 }
 
 #coming-soon-title {
-    padding:220px 40px 20px 40px;
+    padding:225px 40px 15px 40px;
     color: rgba(215,225,190,1);
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
@@ -138,9 +138,9 @@ textarea {
     -o-transition: color .5s ease-out;
 }
 
-#coming-soon-title:hover {
-    color: rgba(255, 241, 0, 1);
-}
+/*#coming-soon-title:hover {
+    color: rgba(100, 175, 255, 1);
+}*/
 
 /*  =========================================================================
     text styling
