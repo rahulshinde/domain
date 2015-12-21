@@ -78,6 +78,7 @@ h2, a {
 	font-family: 'Halant', serif;
 	font-weight: 400;
 	font-size: 17px;
+	line-height: 19px;
 }
 
 h1 {
@@ -85,6 +86,12 @@ h1 {
 	font-weight: 600;
 	font-size: 17px;
 }
+
+/*#date {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}*/
 
 
 /* 	======================
