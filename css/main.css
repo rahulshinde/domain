@@ -87,6 +87,11 @@ h1 {
 	font-size: 17px;
 }
 
+.work-links {
+	padding-top: 10px;
+	line-height: 23px;
+}
+
 /*#date {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
