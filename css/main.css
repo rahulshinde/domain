@@ -77,7 +77,7 @@ table {
 h2, a {
 	font-family: 'Halant', serif;
 	font-weight: 400;
-	font-size: 17px;
+	font-size: 18px;
 	line-height: 21px;
 }
 
@@ -312,15 +312,21 @@ h2.description {
 		font-size: 15px;
 	}
 
+	h2.date {
+		font-size: 13px;
+		line-height: 17px;
+	}
+	
+	h2.description {
+		font-size: 13px;
+		line-height: 17px;
+	}
+
 }
 
 @media screen and (max-width: 900px) { 
 	.web {
 		display: none;
-	}
-
-	h2, a {
-		font-size: 17px;
 	}
 
 	ul {
@@ -413,6 +419,16 @@ h2.description {
 
 	h1 {
 		font-size: 19px;
+	}
+
+	h2.date {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	
+	h2.description {
+		font-size: 16px;
+		line-height: 22px;
 	}
 
 	.nav-left {
