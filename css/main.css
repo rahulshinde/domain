@@ -97,7 +97,9 @@ h2.date {
 	font-size: 16px;
 }
 
-h2.description {
+h2.description,
+h2.about,
+.about a {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 300;
 	font-style: italic;
@@ -156,7 +158,17 @@ h2.description {
 	bottom: 20px;
 	width: 80%;
 	margin-top: 40px;
-	margin-left: 10%;
+	margin-left: 9.2%;
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+.about-proj {
+	margin-top: 30px;
+	color: rgba(0,0,0,0.45);
+}
+
+.about {
+	margin-top: 25px;
 }
 
 /* 	======================
@@ -211,6 +223,8 @@ h2.description {
 
 .date {
 	margin-top: 10px;
+	margin-bottom: 2px;
+	color: rgba(0,0,0,0.45);
 }
 
 #proj-link {
@@ -296,7 +310,6 @@ h2.description {
 	color: black;
 	background: white;
 	cursor: pointer;
-	outline: 1px solid black;
 }
 
 /*  =======================
@@ -317,9 +330,16 @@ h2.description {
 		line-height: 17px;
 	}
 	
-	h2.description {
+	h2.description,
+	h2.about,
+	.about a {
 		font-size: 13px;
 		line-height: 17px;
+	}
+
+	.about a {
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 }
@@ -353,6 +373,7 @@ h2.description {
 		margin-left: 0;
 		margin-top: -30px;
 		padding-top: 30px;
+		padding-bottom: 10px;
 		border-right:none;
 		border-bottom: 1px solid black;
 		background-color: white;
@@ -362,10 +383,18 @@ h2.description {
 		margin-left: 18px;
 	}
 	
+	.about-proj {
+		float: right;
+		width: 40%;
+		margin-right: -3px;
+		margin-top: -170px;
+	}
+
 	.about {
 		float: right;
 		width: 40%;
-		margin-top: -138px;
+		margin-right: -3px;
+		margin-top: -90px;
 	}
 
 	#gif-container {
@@ -399,15 +428,20 @@ h2.description {
 		margin-left: 20px;
 	}
 
+	.about-proj {
+		margin-right: -11px;
+		margin-top: -171px;
+	}
+
 	.about {
-		margin-right: -12px;
-		margin-top: -131px;
+		margin-right: -11px;
+		margin-top: -50px;
 	}
 
 	.button {
-	width: 40%;
-	margin-left: 28%;
-}
+		width: 40%;
+		margin-left: 28%;
+	}
 
 }
 
@@ -425,7 +459,9 @@ h2.description {
 		line-height: 22px;
 	}
 	
-	h2.description {
+	h2.description,
+	h2.about,
+	.about a {
 		font-size: 16px;
 		line-height: 22px;
 	}
@@ -436,6 +472,7 @@ h2.description {
 		margin-top: -30px;
 	}
 
+	.about-proj,
 	.about {
 		display: none;
 	}
