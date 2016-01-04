@@ -78,7 +78,7 @@ h2, a {
 	font-family: 'Halant', serif;
 	font-weight: 400;
 	font-size: 18px;
-	line-height: 23px;
+	line-height: 24px;
 }
 
 h1 {
@@ -155,9 +155,9 @@ h2.about,
 }
 
 #gif-container {
-	width: 70%;
-	margin-top: 40px;
-	margin-left: 14.2%;
+	width: 80%;
+	margin-top: 25px;
+	margin-left: 9.2%;
 	border: 1px solid rgba(0,0,0,0.3);
 	z-index: -10;
 }
