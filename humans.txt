@@ -1,7 +1,7 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# DESIGN / DEVELOPMENT
 
 	Rahul Shinde
 	Always interested in collaboration/discourse.
