@@ -37,12 +37,12 @@ function init() {
 	//adding lights, sphere is just to check light position.
 	var sphere = new THREE.SphereGeometry( 0.4, 16, 8 );
 
-	light1 = new THREE.PointLight( 0x2defff, 1, 4500 );
+	light1 = new THREE.PointLight( 0x22d7c8, 1, 4500 );
 	// light1.add( new THREE.Mesh( sphere, new THREE.MeshBasicMaterial( { color: 0x2defff } ) ) );
 	light1.position.set( 0, 0, 50 );
 	scene.add( light1 );
 
-	light2 = new THREE.PointLight( 0xf8ffa8, 1, 4500 );
+	light2 = new THREE.PointLight( 0xffd270, 1, 4500 );
 	// light2.add( new THREE.Mesh( sphere, new THREE.MeshBasicMaterial( { color: 0xf8ffa8 } ) ) );
 	light2.position.set( 10, 30, 10 );
 	scene.add( light2 );
@@ -137,7 +137,7 @@ function init() {
 	var wallMaterial = new THREE.MeshPhongMaterial( { color: 0xffffff, wireframe: true } );
 	var wall1 = new THREE.Mesh( geometry4, wallMaterial );
 
-	wall1Group.add( wall1 );
+	// wall1Group.add( wall1 );
 
 	var imageFrame = new THREE.BoxGeometry( 35, 25, 0.1 );
 	var image1Material = new THREE.MeshBasicMaterial( { map:THREE.ImageUtils.loadTexture('img/1.jpg') , side: THREE.DoubleSide} );
@@ -146,10 +146,10 @@ function init() {
 	image1.position.y = 2;
 	image1.position.z = 0.5;
 
-	wall1Group.add( image1 );
+	// wall1Group.add( image1 );
 
 
-	scene.add(wall1Group);
+	// scene.add(wall1Group);
 	wall1Group.position.x = -40;
 	wall1Group.rotation.y = 0.8;
 
@@ -160,7 +160,7 @@ function init() {
 	var geometry5 = new THREE.BoxGeometry( 25, 18, 1 );
 	var wall2 = new THREE.Mesh( geometry5, wallMaterial );
 
-	wall2Group.add( wall2 );
+	// wall2Group.add( wall2 );
 
 	var image2Frame = new THREE.BoxGeometry( 15, 10, 0.1 );
 	var image2Material = new THREE.MeshBasicMaterial( { map:THREE.ImageUtils.loadTexture('img/2.jpg') , side: THREE.DoubleSide} );
@@ -169,10 +169,10 @@ function init() {
 	image2.position.y = 1;
 	image2.position.z = 0.5;
 
-	wall2Group.add( image2 );
+	// wall2Group.add( image2 );
 
 
-	scene.add(wall2Group);
+	// scene.add(wall2Group);
 	wall2Group.position.x = 10;
 	wall2Group.position.y = -20;
 	wall2Group.position.z = 30;
@@ -180,8 +180,8 @@ function init() {
 	wall2Group.rotation.y = -1;
 	wall2Group.rotation.z = -1.5;
 
-	group.add (wall1Group);
-	group.add (wall2Group);
+	// group.add (wall1Group);
+	// group.add (wall2Group);
 
 	document.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
