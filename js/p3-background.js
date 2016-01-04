@@ -42,7 +42,7 @@ function init() {
 	light1.position.set( 0, 0, 50 );
 	scene.add( light1 );
 
-	light2 = new THREE.PointLight( 0xffd270, 1, 4500 );
+	light2 = new THREE.PointLight( 0xffe09b, 1, 4500 );
 	// light2.add( new THREE.Mesh( sphere, new THREE.MeshBasicMaterial( { color: 0xf8ffa8 } ) ) );
 	light2.position.set( 10, 30, 10 );
 	scene.add( light2 );
