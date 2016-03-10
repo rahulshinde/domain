@@ -114,7 +114,7 @@ function init() {
 
 	var geometry3 = new THREE.ExtrudeGeometry( shape3, extrudeSetting3 );
 
-	var mesh3 = new THREE.Mesh( geometry3, new THREE.MeshPhongMaterial( { color: 0xffffff, wireframe: true } ) );
+	var mesh3 = new THREE.Mesh( geometry3, new THREE.MeshPhongMaterial( { color: 0xffffff, wireframe: false } ) );
 
 	mesh3.position.x = -10;
 	mesh3.position.z = -10;
