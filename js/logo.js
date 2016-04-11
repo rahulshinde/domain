@@ -30,10 +30,13 @@ animate();
 function init() {
 	scene = new THREE.Scene();
 	camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 1, 1000 );
-	camera.position.x = 15;
-	camera.position.z = 125;
+	camera.position.x = 35;
+	camera.position.y = -30;
+	camera.position.z = 65;
+	camera.rotation.x = 0.5;
+	camera.rotation.z = 0.1;
 
-	renderer = new THREE.WebGLRenderer();
+	renderer = new THREE.WebGLRenderer({alpha:true});
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	container.appendChild( renderer.domElement );
 
@@ -50,7 +53,7 @@ function init() {
 	light2.position.set( 10, 30, 10 );
 	scene.add( light2 );
 
-	scene.add( new THREE.AmbientLight( 0xff0000 ) );
+	scene.add( new THREE.AmbientLight( 0xffffff ) );
 
 	// adding main shapes
 
