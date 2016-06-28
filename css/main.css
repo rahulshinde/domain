@@ -64,14 +64,7 @@ table {
 	/*outline: 1px solid rgb(0,0,255);*/
 }
 
-html {
-	height: 100%;
-	overflow: hidden;
-}
-
 body {
-	height: 100%;
-	overflow: auto;
 	background-color: white;
 	cursor: crosshair;
 }
@@ -152,9 +145,13 @@ a:hover {
 	======================*/
 
 .info-left {
+	position: fixed;
+	top: 0;
+	bottom: 0;
 	width: 37%;
 	padding-right: 3%;
 	z-index: 1; 
+	overflow-y: scroll;
 }
 
 .info-left:hover {
@@ -171,7 +168,6 @@ a:hover {
 	right: 0px;
 	bottom: 00px;
 	width: 60%;
-	overflow-y:scroll; 
 	z-index: 1;
 }
 
